@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { IncidentModule } from './incident/incident.module';
 
 @Module({
-  imports: [],
+  imports: [IncidentModule],
   controllers: [],
   providers: [],
 })
